@@ -23,7 +23,7 @@
             <div class="card-body">
                 <h4 class="card-title">FFMPEG Log Analyzer</h4>
                 <h6 class="text-muted card-subtitle mb-2">created by massimo.rnd</h6>
-                <p class="card-text">This tool was created to analyze a FFMPEG log to find the highest FPS and Speed value.</p><input type="file" id="fileInput" accept=".txt">
+                <p class="card-text">This tool was created to analyze a FFMPEG log to find the highest and average FPS and Speed values.</p><input type="file" id="fileInput" accept=".txt">
                 <div class="container value-container">
                     <div class="row">
                         <div class="col-md-6">
@@ -33,6 +33,18 @@
                         <div class="col-md-6">
                             <p>max speed:</p>
                             <h2 id="maxSpeed">N/A</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container value-container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Average FPS:</p>
+                            <h2 id="avgFps">N/A</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Average Speed:</p>
+                            <h2 id="avgSpeed">N/A</h2>
                         </div>
                     </div>
                 </div><a href="https://github.com/massimo-rnd/ffmpeg-log-analyzer"><i class="fab fa-github"></i>&nbsp;View Source on GitHub</a>
