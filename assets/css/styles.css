@@ -1,0 +1,21 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+.analyzer-section {
+  margin-top: 20vh;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.value-container {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.link-container {
+  margin-top: 10vh;
+}
+
